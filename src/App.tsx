@@ -20,15 +20,17 @@ export default function App() {
     )
   );
 
-  return <GlobalContextProvider>
-
-    <RouterProvider router={router} />;
-  </GlobalContextProvider>
+  return (
+    <GlobalContextProvider>
+      <RouterProvider router={router} />;
+    </GlobalContextProvider>
+  );
 }
 
 function Root() {
   return (
     <main className="relative">
+      <div className="bg-[url('/images/hero.png')] h-screen absolute top-0 left-0 w-screen -z-10" />
       <Navbar />
       <Outlet />
       <Footer />
