@@ -4,7 +4,7 @@
 
 @layer base {
   html {
-    @apply bg-background text-front font-poppins scroll-smooth;
+    @apply text-front font-poppins scroll-smooth;
   }
 
   body {
