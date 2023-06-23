@@ -30,7 +30,7 @@ export default function App() {
 function Root() {
   return (
     <main className="relative">
-      <div className="bg-[url('/images/hero.png')] absolute top-0 left-0 w-full -z-10" />
+      <div className="bg-[url('/images/hero.png')] absolute top-0 left-0 w-full h-full -z-10" />
       <Navbar />
       <Outlet />
       <Footer />
