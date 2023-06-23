@@ -30,7 +30,7 @@ const features = [
 
 export default function WhyUs() {
   return (
-    <section className="bg-background w-full px-24 py-16 mt-[50vh] border-primary border rounded-3xl flex flex-col justify-center gap-y-16 bg-opacity-80 backdrop-blur-md">
+    <section className="bg-background w-full px-24 py-16 mt-[50vh] border-primary border rounded-3xl flex flex-col justify-center gap-y-16 bg-opacity-60 backdrop-blur-md">
       <div className="bg-black text-white w-max px-2 py-1 rounded-xl self-center text-xl">
         Why Us?
       </div>

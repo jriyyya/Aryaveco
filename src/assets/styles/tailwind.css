@@ -16,4 +16,14 @@
   .p-page {
     @apply px-[8vw];
   }
+
+  .scrollbar-hidden::-webkit-scrollbar {
+    @apply w-[5px];
+  }
+  .scrollbar-hidden::-webkit-scrollbar-track {
+    @apply hidden;
+  }
+  .scrollbar-hidden::-webkit-scrollbar-thumb {
+    @apply hidden;
+  }
 }
