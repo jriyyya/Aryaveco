@@ -24,7 +24,7 @@ export default function App() {
   return (
     <GlobalContextProvider>
       <CacheContextProvider>
-        <RouterProvider router={router} />;
+        <RouterProvider router={router} />
       </CacheContextProvider>
     </GlobalContextProvider>
   );

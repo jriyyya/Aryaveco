@@ -16,7 +16,7 @@ export default function OurProducts() {
   });
 
   return (
-    <section className="bg-primary w-full px-24 py-16 mt-[20vh] border-primary border rounded-3xl flex flex-col justify-center gap-y-8 bg-opacity-[15%] backdrop-blur-md">
+    <section className="bg-primary w-full px-24 py-16 mt-[10vh] border-primary border rounded-3xl flex flex-col justify-center gap-y-8 bg-opacity-[10%] backdrop-blur-md">
       <div className="bg-black text-white w-max px-2 py-1 rounded-xl self-center text-xl">
         Want to buy?
       </div>
@@ -65,7 +65,7 @@ export default function OurProducts() {
                 key={i}
                 className="bg-background  border-primary border rounded-3xl p-8 flex flex-col gap-y-4"
               >
-                <img src={product.imgUrl} alt="water-cooler" />
+                <img src={product.imgUrl} alt="water-cooler" className="" />
                 <div className="flex flex-col">
                   <div className="text-xl font-semibold text-primary">
                     {product.name}

@@ -29,7 +29,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="bg-background w-full px-24 py-16 mt-[20vh] border-primary border rounded-3xl flex flex-col justify-center gap-y-4 bg-opacity-60 backdrop-blur-md">
+    <section className="bg-background w-full px-24 py-16 mt-[10vh] mb-[3vh] border-primary border rounded-3xl flex flex-col justify-center gap-y-4 bg-opacity-60 backdrop-blur-md">
       <div className="bg-black text-white w-max px-2 py-1 rounded-xl self-center text-xl">
         Want to see Reviews?
       </div>
@@ -62,7 +62,7 @@ export default function Testimonials() {
               />
               <div className="font-medium text-sm">{testimonial.review}</div>
               <div className="font-semibold text-primary text-xl ">
-                {testimonial.name}{" "}
+                {testimonial.name}
               </div>
             </div>
           ))}
