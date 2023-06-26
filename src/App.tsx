@@ -11,6 +11,7 @@ import HomePage from "./pages/HomePage/HomePage";
 import { GlobalContextProvider } from "./contexts/globalContext";
 import { CacheContextProvider } from "./contexts/cacheContext";
 import AboutPage from "./pages/AboutPage/AboutPage";
+import ProductPage from "./pages/ProductsPage/ProductPage";
 
 export default function App() {
   const router = createBrowserRouter(
@@ -18,6 +19,7 @@ export default function App() {
       <Route path="/" element={<Root />}>
         <Route index element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/products" element={<ProductPage />} />
       </Route>
     )
   );
