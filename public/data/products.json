@@ -7,8 +7,21 @@
             "capacity": 100,
             "storage": 200,
             "power": 6,
-            "noise": 64
-        }
+            "noise": 64,
+            "extras": [
+                "LCD touch screen",
+                "Hot and cold water output"
+            ]
+        },
+        "highlights": [
+            {
+                "title": "Operating Conditions",
+                "items": {
+                    "key": "Working Temperature",
+                    "value": "15-40 C"
+                }
+            }
+        ]
     },
     {
         "name": "Model name",

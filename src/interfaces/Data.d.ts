@@ -6,6 +6,11 @@ export interface Product {
         capacity: number,
         storage: number,
         power: number,
-        nosie: number
-    }
+        noise: number,
+        extras: string[]
+    },
+    highlights: {
+        title: string;
+        items: { key: string; value: string };
+    }[]
 }
