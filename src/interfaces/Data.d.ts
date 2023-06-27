@@ -11,6 +11,6 @@ export interface Product {
     },
     highlights: {
         title: string;
-        items: { key: string; value: string };
+        items: { key: string; value: string }[];
     }[]
 }

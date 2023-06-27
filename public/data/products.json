@@ -16,10 +16,33 @@
         "highlights": [
             {
                 "title": "Operating Conditions",
-                "items": {
-                    "key": "Working Temperature",
-                    "value": "15-40 C"
-                }
+                "items": [
+                    {
+                        "key": "Working Temperature",
+                        "value": "15-40 C"
+                    },
+                    {
+                        "key": "Working Humidity",
+                        "value": "45 - 65 %"
+                    }
+                ]
+            },
+            {
+                "title": "Product Specification",
+                "items": [
+                    {
+                        "key": "Container loading",
+                        "value": "144pcs/20ft 384pcs/40hq"
+                    },
+                    {
+                        "key": "Dimensions",
+                        "value": "45 x 44 x 56 cm"
+                    },
+                    {
+                        "key": "Net Weight",
+                        "value": "46Kg"
+                    }
+                ]
             }
         ]
     },
@@ -31,8 +54,44 @@
             "capacity": 100,
             "storage": 200,
             "power": 6,
-            "noise": 64
-        }
+            "noise": 64,
+            "extras": [
+                "LCD touch screen",
+                "Hot and cold water output"
+            ]
+        },
+        "highlights": [
+            {
+                "title": "Operating Conditions",
+                "items": [
+                    {
+                        "key": "Working Temperature",
+                        "value": "15-40 C"
+                    },
+                    {
+                        "key": "Working Humidity",
+                        "value": "45 - 65 %"
+                    }
+                ]
+            },
+            {
+                "title": "Product Specification",
+                "items": [
+                    {
+                        "key": "Container loading",
+                        "value": "144pcs/20ft 384pcs/40hq"
+                    },
+                    {
+                        "key": "Dimensions",
+                        "value": "45 x 44 x 56 cm"
+                    },
+                    {
+                        "key": "Net Weight",
+                        "value": "46Kg"
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Model name",
@@ -42,8 +101,44 @@
             "capacity": 100,
             "storage": 200,
             "power": 6,
-            "noise": 64
-        }
+            "noise": 64,
+            "extras": [
+                "LCD touch screen",
+                "Hot and cold water output"
+            ]
+        },
+        "highlights": [
+            {
+                "title": "Operating Conditions",
+                "items": [
+                    {
+                        "key": "Working Temperature",
+                        "value": "15-40 C"
+                    },
+                    {
+                        "key": "Working Humidity",
+                        "value": "45 - 65 %"
+                    }
+                ]
+            },
+            {
+                "title": "Product Specification",
+                "items": [
+                    {
+                        "key": "Container loading",
+                        "value": "144pcs/20ft 384pcs/40hq"
+                    },
+                    {
+                        "key": "Dimensions",
+                        "value": "45 x 44 x 56 cm"
+                    },
+                    {
+                        "key": "Net Weight",
+                        "value": "46Kg"
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Model name",
@@ -53,7 +148,43 @@
             "capacity": 100,
             "storage": 200,
             "power": 6,
-            "noise": 64
-        }
+            "noise": 64,
+            "extras": [
+                "LCD touch screen",
+                "Hot and cold water output"
+            ]
+        },
+        "highlights": [
+            {
+                "title": "Operating Conditions",
+                "items": [
+                    {
+                        "key": "Working Temperature",
+                        "value": "15-40 C"
+                    },
+                    {
+                        "key": "Working Humidity",
+                        "value": "45 - 65 %"
+                    }
+                ]
+            },
+            {
+                "title": "Product Specification",
+                "items": [
+                    {
+                        "key": "Container loading",
+                        "value": "144pcs/20ft 384pcs/40hq"
+                    },
+                    {
+                        "key": "Dimensions",
+                        "value": "45 x 44 x 56 cm"
+                    },
+                    {
+                        "key": "Net Weight",
+                        "value": "46Kg"
+                    }
+                ]
+            }
+        ]
     }
 ]

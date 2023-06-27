@@ -23,16 +23,43 @@ export default function Products() {
             </div>
             <div className="basis-1/2 flex flex-col gap-y-4">
               <div className="text-lg font-medium">{product.description}</div>
-              <div>
+              <div className="flex flex-col gap-y-4">
                 <div className="text-primary font-bold text-2xl">Features</div>
-                {/* {product.features.map((feature, i) => { */}
-                {/* <div></div>; */}
-                {/* })} */}
+                <div className="flex flex-col gap-y-2">
+                  <div className="flex items-center gap-x-2">
+                    <div className="h-[12px] w-[3px] bg-primary" />
+                    <div>Capacity : </div>
+                    <div className="font-semibold">
+                      {product.features.capacity} ltrs/day
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-x-2">
+                    <div className="h-[12px] w-[3px] bg-primary" />
+                    <div>Storage : </div>
+                    <div className="font-semibold">
+                      {product.features.storage} ltrs
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-x-2">
+                    <div className="h-[12px] w-[3px] bg-primary" />
+                    <div>Power : </div>
+                    <div className="font-semibold">
+                      {product.features.power} kW
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-x-2">
+                    <div className="h-[12px] w-[3px] bg-primary" />
+                    <div>Noise Level : </div>
+                    <div className="font-semibold">
+                      &#60;{product.features.noise} dB
+                    </div>
+                  </div>
+                </div>
                 <button
                   onClick={() => {
-                    modal.show(<ProductModal />);
+                    modal.show(<ProductModal product={product} />);
                   }}
-                  className="px-4 py-2 text-back rounded-xl bg-gradient-to-r from-primary bg-primary bg-opacity-25 hover:cursor-pointer hover:-translate-y-1 duration-300"
+                  className="px-4 py-2 w-max text-back rounded-xl bg-gradient-to-r from-primary bg-primary bg-opacity-25 hover:cursor-pointer hover:-translate-y-1 duration-300"
                 >
                   View Details
                 </button>
