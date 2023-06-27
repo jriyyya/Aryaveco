@@ -15,6 +15,7 @@ import ProductPage from "./pages/ProductsPage/ProductPage";
 import useModal from "./hooks/useModal";
 import { twMerge } from "tailwind-merge";
 import AdvantagePage from "./pages/AdvantagesPage/AdvantagePage";
+import ContactPage from "./pages/ContactPage/ContactPage";
 
 export default function App() {
   const router = createBrowserRouter(
@@ -24,6 +25,7 @@ export default function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/products" element={<ProductPage />} />
         <Route path="/advantages" element={<AdvantagePage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Route>
     )
   );
