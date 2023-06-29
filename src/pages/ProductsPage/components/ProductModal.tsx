@@ -9,7 +9,7 @@ interface ProductModalProps {
 export default function ProductModal(props: ProductModalProps) {
   const modal = useModal();
   return (
-    <div className="bg-background text-black z-10 relative w-[60vw] max-h-[90vh] px-16 py-12 rounded-3xl overflow-y-scroll overflow-x-hidden">
+    <div className="bg-background text-black z-10 relative w-[60vw] max-h-[90vh] px-16 py-12 rounded-3xl overflow-y-scroll overflow-x-hidden mobile:w-[90vw] mobile:px-4">
       <img
         src="/images/bg-modal.png"
         alt="bg-modal"
@@ -24,19 +24,21 @@ export default function ProductModal(props: ProductModalProps) {
         <MaterialIcon codepoint="e5cd" className="text-3xl" />
       </button>
 
-      <div className="flex flex-col items-center gap-x-4">
-        <div className="flex">
+      <div className="flex flex-col items-center gap-x-4 mobile:flex-col">
+        <div className="flex mobile:flex-col mobile:items-center">
           <img
             src={props.product.imgUrl}
             alt="water-cooler"
-            className="w-[20vw]"
+            className="w-[20vw] mobile:w-[50vw]"
           />
-          <div className="flex flex-col gap-y-4">
-            <div className="text-primary font-semibold text-5xl">
+          <div className="flex flex-col gap-y-4 mobile:items-center mobile:gap-y-4">
+            <div className="text-primary font-semibold text-5xl mobile:text-3xl">
               {props.product.name}
             </div>
-            <div className="font-medium">{props.product.description}</div>
-            <div className="flex flex-row items-center gap-x-4">
+            <div className="font-medium mobile:text-center">
+              {props.product.description}
+            </div>
+            <div className="flex flex-row items-center gap-x-4 mobile:flex-col mobile:gap-y-4">
               <button className="px-4 py-2 text-back rounded-xl bg-gradient-to-r from-primary bg-primary bg-opacity-25 hover:cursor-pointer hover:-translate-y-1 duration-300">
                 Contact Us for Sales
               </button>
@@ -48,8 +50,8 @@ export default function ProductModal(props: ProductModalProps) {
           </div>
         </div>
         <div>
-          <div className="flex flex-col gap-y-8 mt-24">
-            <div className="flex flex-col gap-y-4 border-2 border-primary justify-center py-6 px-24 rounded-3xl">
+          <div className="flex flex-col gap-y-8 mt-24 mobile:items-center">
+            <div className="flex flex-col gap-y-4 border-2 border-primary justify-center py-6 px-24 rounded-3xl mobile:items-center mobile:px-10 mobile:w-max">
               <div className="text-primary font-bold text-2xl self-center">
                 Features
               </div>
@@ -92,18 +94,18 @@ export default function ProductModal(props: ProductModalProps) {
             </div>
             {props.product.highlights.map((highlight, i) => (
               <div
-                className="flex flex-col gap-y-4 border-2 border-primary justify-center py-6 px-24 rounded-3xl"
+                className="flex flex-col gap-y-4 border-2 border-primary justify-center py-6 px-24 rounded-3xl mobile:px-6 mobile:w-[90%] mobile:justify-center"
                 key={i}
               >
-                <div className="text-primary font-bold text-2xl self-center">
+                <div className="text-primary font-bold text-2xl self-center mobile:text-center">
                   {" "}
                   {highlight.title}
                 </div>
                 {highlight.items.map((item, i) => (
                   <div key={i}>
-                    <div className="flex items-center gap-x-2">
-                      <div className="h-[12px] w-[3px] bg-primary" />
-                      <div>{item.key} </div>
+                    <div className="flex items-center gap-x-2 mobile:text-sm">
+                      <div className="h-[2ch] w-[3px] bg-primary" />
+                      <div className="">{item.key}: </div>
                       <div className="font-semibold">{item.value}</div>
                     </div>
                   </div>
