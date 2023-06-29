@@ -14,17 +14,24 @@ export default function Products() {
         <div>Loading...</div>
       ) : (
         products.map((product, id) => (
-          <div className="flex flex-row bg-background bg-opacity-[70%] backdrop-blur-sm px-16 py-24 w-[80%] rounded-xl">
+          <div
+            className="flex flex-row bg-background bg-opacity-[70%] backdrop-blur-sm px-16 py-24 w-[80%] rounded-xl mobile:flex-col mobile:w-full mobile:py-6 mobile:px-5 mobile:gap-y-4"
+            key={id}
+          >
             <div className="basis-1/2 flex flex-col items-center">
               <img src={product.imgUrl} />
-              <div className="text-4xl font-bold text-primary">
+              <div className="text-4xl font-bold text-primary ">
                 {product.name}
               </div>
             </div>
             <div className="basis-1/2 flex flex-col gap-y-4">
-              <div className="text-lg font-medium">{product.description}</div>
-              <div className="flex flex-col gap-y-4">
-                <div className="text-primary font-bold text-2xl">Features</div>
+              <div className="text-lg font-medium mobile:text-center mobile:text-base">
+                {product.description}
+              </div>
+              <div className="flex flex-col gap-y-4 mobile:items-center mobile:gap-y-2">
+                <div className="text-primary font-bold text-2xl mobile:text-center ">
+                  Features
+                </div>
                 <div className="flex flex-col gap-y-2">
                   <div className="flex items-center gap-x-2">
                     <div className="h-[12px] w-[3px] bg-primary" />
