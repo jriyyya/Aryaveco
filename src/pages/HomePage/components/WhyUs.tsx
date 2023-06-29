@@ -37,7 +37,7 @@ export default function WhyUs() {
         </div>
         <div className="flex widescreen:flex-row mobile:flex-col items-center">
           {reasons.map((reason, i) => (
-            <div className="mobile:w-2/3">
+            <div className="mobile:w-[85%]">
               <div
                 key={i}
                 className={twMerge(
