@@ -16,7 +16,10 @@ export default function Navbar() {
 
   return (
     <nav ref={navRef}>
-      <div className="relative widescreen:hidden z-[100] text-end">
+      <div className="relative widescreen:hidden z-[100] flex flex-row justify-between px-4 py-2 items-center">
+        <Link to="/">
+          <img src="/logo.png" />
+        </Link>
         <button onClick={() => setMobileNavShown(!mobileNavShown)}>
           <MaterialIcon className="text-4xl text-primary" codepoint="e5d2" />
         </button>
@@ -44,7 +47,9 @@ export default function Navbar() {
         )}
       </div>
       <div className="mobile:hidden flex flex-row z-[100] px-24 py-4 justify-between items-center">
-        <img src="/logo.png" />
+        <Link to="/">
+          <img src="/logo.png" />
+        </Link>
         <div className="flex flex-row gap-x-2">
           {navItems.map((item, i) => (
             <NavLink

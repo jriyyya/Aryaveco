@@ -24,7 +24,10 @@ const problems = [
 
 export default function Task() {
   return (
-    <section className="bg-background w-full px-24 py-16 mt-[30vh] border-primary border rounded-3xl flex flex-col justify-center gap-y-8 mobile:gap-y-2 bg-opacity-60 backdrop-blur-md mobile:px-4 mobile:py-8">
+    <section
+      className="bg-background w-full px-24 py-16 mt-[30vh] border-primary border rounded-3xl flex flex-col justify-center gap-y-8 mobile:gap-y-2 
+    bg-opacity-60 backdrop-blur-md mobile:px-4 mobile:py-8 mobile:mt-5"
+    >
       <div className="bg-black text-white w-max px-2 py-1 rounded-xl self-center text-xl mobile:text-lg">
         Why do we do this?
       </div>

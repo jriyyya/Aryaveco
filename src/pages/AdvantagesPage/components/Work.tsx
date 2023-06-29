@@ -1,6 +1,6 @@
 export default function Work() {
   return (
-    <section className="bg-background w-full px-24 py-16 mt-[30vh] border-primary border rounded-3xl flex flex-col justify-center gap-y-8 bg-opacity-60 backdrop-blur-md mobile:px-6 mobile:gap-y-2 mobile:py-6">
+    <section className="bg-background w-full px-24 py-16 mobile:mt-4 mt-[30vh] border-primary border rounded-3xl flex flex-col justify-center gap-y-8 bg-opacity-60 backdrop-blur-md mobile:px-6 mobile:gap-y-2 mobile:py-6">
       <div className="bg-black text-white w-max px-2 py-1 rounded-xl self-center text-xl">
         Why do we do this?
       </div>
