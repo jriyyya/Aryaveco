@@ -10,7 +10,7 @@ export default function ContactPage() {
             <input
               type="email"
               placeholder="Enter your Email here"
-              className="w-full py-4 px-6 rounded-xl"
+              className="w-full py-4 px-6 rounded-xl mobile:px-2 mobile:py-4"
             />
           </div>
           <div className="flex flex-col">
@@ -20,7 +20,7 @@ export default function ContactPage() {
             <input
               type="text"
               placeholder="Enter your organization name here"
-              className="w-full py-4 px-6 rounded-xl"
+              className="w-full py-4 px-6 rounded-xl mobile:px-2 mobile:py-4"
             />
           </div>
           <div className="flex flex-col">
@@ -28,7 +28,7 @@ export default function ContactPage() {
             <input
               type="text"
               placeholder="Enter your message here"
-              className="w-full py-4 px-6 rounded-xl"
+              className="w-full py-4 px-6 rounded-xl mobile:px-2 mobile:py-4"
             />
           </div>
         </div>
