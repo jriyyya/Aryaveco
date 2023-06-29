@@ -1,8 +1,8 @@
 export default function ContactPage() {
   return (
     <div className="flex flex-col justify-center items-center my-24">
-      <img src="/images/hero.png" className="-top-10 absolute -z-10" />
-      <form className="backdrop-blur-xl px-12 py-12 bg-background w-[40vw] flex flex-col items-center rounded-2xl gap-y-12 bg-opacity-80 border-2 border-primary">
+      <img src="/images/hero.png" className="absolute -z-10" />
+      <form className="backdrop-blur-xl p-12 mobile:px-4 mobile:py-6 mobile:gap-y-6 bg-background w-[40vw] mobile:w-[90%] flex flex-col items-center rounded-2xl gap-y-12 bg-opacity-80 border-2 border-primary">
         <div className="text-4xl font-bold text-primary">Contact us</div>
         <div className="flex flex-col gap-y-8 w-full">
           <div className="flex flex-col">
