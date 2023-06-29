@@ -1,12 +1,12 @@
 export default function Hero() {
   return (
-    <div className="flex flex-row gap-x-16 p-page mr-24 py-20 justify-center">
-      {/* <div className="self-center text-primary font-semibold text-right">
-          <div>Who are we?</div>
-          <div>What do we do?</div>
-          <div>Why do we do this?</div>
-        </div> */}
-      <div className="basis-2/3 mobile:basis-full flex mobile:ml-12 flex-col gap-y-6 p-page">
+    <div className="flex flex-row gap-x-16 p-page mobile:mr-24 py-20 mobile:justify-center">
+      <div className="self-center text-primary font-semibold text-right mobile:hidden">
+        <div>Who are we?</div>
+        <div>What do we do?</div>
+        <div>Why do we do this?</div>
+      </div>
+      <div className="basis-2/3 mobile:basis-full flex mobile:ml-12 flex-col gap-y-6">
         <div className="text-primary text-5xl font-bold">Advantages</div>
         <div className="font-semibold mobile:font-medium">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia nulla
