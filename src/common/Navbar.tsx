@@ -8,7 +8,7 @@ const navItems = [
 ];
 export default function Navbar() {
   return (
-    <nav className="flex flex-row z-[100] px-24 py-4 justify-between items-center">
+    <nav className="flex flex-row z-[100] px-24 py-4 justify-between items-center mobile:hidden">
       <img src="/logo.png" />
       <div className="flex flex-row gap-x-8">
         {navItems.map((item, i) => (
