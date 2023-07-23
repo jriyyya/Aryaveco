@@ -14,6 +14,11 @@ export default function HomePage() {
           alt=""
           className="h-max mobile:hidden"
         />
+        <img
+          src="/images/water-bg.webp"
+          alt=""
+          className="h-max mobile:hidden"
+        />
       </div>
       <Hero />
       <WhyUs />
