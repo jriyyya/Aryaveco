@@ -8,6 +8,29 @@ const navItems = [
   { title: "Contact Us", to: "/contact" },
 ];
 
+const downloads = [
+  {
+    title: "CE Certificates",
+    to: "/documents/downloads/CE.pdf",
+  },
+  {
+    title: "Water test reports",
+    to: "/documents/downloads/testReport.pdf",
+  },
+  {
+    title: "UAE test report",
+    to: "documents/downloads/uae.pdf",
+  },
+  {
+    title: "Brochure",
+    to: "documents/downloads/brochure.pdf",
+  },
+  {
+    title: "Product Catalogue",
+    to: "documents/downloads/product.pdf",
+  },
+];
+
 export default function Footer() {
   return (
     <footer className="bg-foreground p-page pt-6 py-10 text-back flex flex-row mobile:flex-col justify-between mobile:px-2 mobile:gap-y-4">
@@ -47,6 +70,21 @@ export default function Footer() {
           ))}
         </div>
       </div>
+      <div className="flex flex-col gap-y-4 mobile:gap-y-2">
+        <div className="text-xl">Downloads</div>
+        <div className="flex flex-col gap-y-2 mobile:flex-wrap mobile:h-[8vh]">
+          {downloads.map((item, i) => (
+            <Link
+              target={`_newABC`}
+              to={item.to}
+              className="duration-300 hover:text-back text-primary hover:brightness-75"
+            >
+              {item.title}
+            </Link>
+          ))}
+        </div>
+      </div>
+
       <div className="flex flex-col gap-y-4 mobile:gap-y-2">
         <div className="text-2xl">Subscribe to our newsletter</div>
         <input
