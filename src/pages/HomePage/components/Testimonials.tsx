@@ -88,9 +88,9 @@ export default function Testimonials() {
           <div className="w-[4vw] self-center bg-black h-1" />
         </div>
       </div>
-      <div className="flex flex-wrap justify-around">
+      <div className="flex flex-wrap justify-around gap-y-4">
         {videoLink.map((link, i) => (
-          <div className="w-[22%]">
+          <div className="w-[22%] mobile:w-[80%] rounded-3xl overflow-hidden">
             <video src={link} controls />
           </div>
         ))}
