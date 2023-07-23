@@ -1,5 +1,52 @@
 [
   {
+    "name": "Model No. AE-100",
+    "imgUrl": "/images/water-cooler.png",
+    "description": "All of Aryav Industrial/Commercial Atmospheric Water Generators can be mounted on trailers and equipped with their own power generators, filtration system, water and fuel storage tanks.",
+    "features": {
+      "Volt": 220,
+      "storage": 200,
+      "power": 6,
+      "noise": 64,
+      "extras": [
+        "LCD touch screen",
+        "Hot and cold water output"
+      ]
+    },
+    "highlights": [
+      {
+        "title": "Operating Conditions",
+        "items": [
+          {
+            "key": "Working Temperature",
+            "value": "15-38 ℃"
+          },
+          {
+            "key": "Working Humidity",
+            "value": "45 - 65 %"
+          }
+        ]
+      },
+      {
+        "title": "Product Specification",
+        "items": [
+          {
+            "key": "Container loading",
+            "value": "144pcs/20ft 384pcs/40hq"
+          },
+          {
+            "key": "Dimensions",
+            "value": "45 x 44 x 56 cm"
+          },
+          {
+            "key": "Net Weight",
+            "value": "46Kg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Model name",
     "imgUrl": "/images/water-cooler.png",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
@@ -8,7 +55,10 @@
       "storage": 200,
       "power": 6,
       "noise": 64,
-      "extras": ["LCD touch screen", "Hot and cold water output"]
+      "extras": [
+        "LCD touch screen",
+        "Hot and cold water output"
+      ]
     },
     "highlights": [
       {
@@ -52,7 +102,10 @@
       "storage": 200,
       "power": 6,
       "noise": 64,
-      "extras": ["LCD touch screen", "Hot and cold water output"]
+      "extras": [
+        "LCD touch screen",
+        "Hot and cold water output"
+      ]
     },
     "highlights": [
       {
@@ -96,51 +149,10 @@
       "storage": 200,
       "power": 6,
       "noise": 64,
-      "extras": ["LCD touch screen", "Hot and cold water output"]
-    },
-    "highlights": [
-      {
-        "title": "Operating Conditions",
-        "items": [
-          {
-            "key": "Working Temperature",
-            "value": "15-40 C"
-          },
-          {
-            "key": "Working Humidity",
-            "value": "45 - 65 %"
-          }
-        ]
-      },
-      {
-        "title": "Product Specification",
-        "items": [
-          {
-            "key": "Container loading",
-            "value": "144pcs/20ft 384pcs/40hq"
-          },
-          {
-            "key": "Dimensions",
-            "value": "45 x 44 x 56 cm"
-          },
-          {
-            "key": "Net Weight",
-            "value": "46Kg"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Model name",
-    "imgUrl": "/images/water-cooler.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
-    "features": {
-      "capacity": 100,
-      "storage": 200,
-      "power": 6,
-      "noise": 64,
-      "extras": ["LCD touch screen", "Hot and cold water output"]
+      "extras": [
+        "LCD touch screen",
+        "Hot and cold water output"
+      ]
     },
     "highlights": [
       {
