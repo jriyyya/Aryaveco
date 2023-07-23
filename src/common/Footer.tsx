@@ -72,7 +72,7 @@ export default function Footer() {
       </div>
       <div className="flex flex-col gap-y-4 mobile:gap-y-2">
         <div className="text-xl">Downloads</div>
-        <div className="flex flex-col gap-y-2 mobile:flex-wrap mobile:h-[8vh] mobile:gap-x-4">
+        <div className="flex flex-col gap-y-2 mobile:flex-wrap mobile:h-[10vh]">
           {downloads.map((item, i) => (
             <Link
               target={`_newABC`}
