@@ -3,10 +3,10 @@ export interface Product {
   description: string;
   imgUrl: string;
   features: {
-    capacity: number;
-    storage: number;
-    power: number;
-    noise: number;
+    items: {
+      key: string;
+      value: string
+    }[]
     extras: string[];
   };
   highlights: {

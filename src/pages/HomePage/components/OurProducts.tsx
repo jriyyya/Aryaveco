@@ -78,18 +78,12 @@ export default function OurProducts() {
                   <div className="w-full h-[1px] bg-primary" />
                 </div>
                 <div className="mobile:text-sm">
-                  <div>
-                    Capacity:{" "}
-                    <span className="font-semibold">
-                      {product.features.capacity} ltrs/day
-                    </span>
-                  </div>
-                  <div>
-                    Power:{" "}
-                    <span className="font-semibold">
-                      {product.features.power} 6kW
-                    </span>
-                  </div>
+                  {product.features.items.map((item, i) => (
+                    <div className="flex flex-row gap-x-2">
+                      <div className="font-semibold">{item.key}:</div>
+                      <div>{item.value} </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             ))}

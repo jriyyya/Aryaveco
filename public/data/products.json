@@ -1,16 +1,29 @@
 [
   {
     "name": "Model No. AE-100",
-    "imgUrl": "/images/water-cooler.png",
+    "imgUrl": "/images/products/ae100.png",
     "description": "All of Aryav Industrial/Commercial Atmospheric Water Generators can be mounted on trailers and equipped with their own power generators, filtration system, water and fuel storage tanks.",
     "features": {
-      "Volt": 220,
-      "storage": 200,
-      "power": 6,
-      "noise": 64,
+      "items": [
+        {
+          "key": "Volt",
+          "value": "220V"
+        },
+        {
+          "key": "Frequency",
+          "value": "50Hz"
+        },
+        {
+          "key": "Compressor",
+          "value": "1.5KW"
+        }
+      ],
       "extras": [
-        "LCD touch screen",
-        "Hot and cold water output"
+        "100 Liters/day generated at 30℃& 80%RH",
+        "7 stage filtration and sterilization",
+        "70 Liters of storage capacity",
+        "Emerson compressor",
+        "Ambient pure water output"
       ]
     },
     "highlights": [
@@ -32,32 +45,57 @@
         "items": [
           {
             "key": "Container loading",
-            "value": "144pcs/20ft 384pcs/40hq"
+            "value": "13pcs/20ft 28pcs/40hq"
           },
           {
             "key": "Dimensions",
-            "value": "45 x 44 x 56 cm"
+            "value": "132x65x95 cm"
           },
           {
             "key": "Net Weight",
-            "value": "46Kg"
+            "value": "130Kg"
+          },
+          {
+            "key": "Gas",
+            "value": "R22"
+          },
+          {
+            "key": "Noise level",
+            "value": "<75dB"
           }
         ]
       }
     ]
   },
   {
-    "name": "Model name",
-    "imgUrl": "/images/water-cooler.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "name": "Model No. AE-250",
+    "imgUrl": "/images/products/ae250.png",
+    "description": "Aryav has fully operational, self-contained and self-sufficient Mobile Air & Water systems. They are easily transported while producing up to thousands of gallons of fresh pure drinking water.",
     "features": {
-      "capacity": 100,
-      "storage": 200,
-      "power": 6,
-      "noise": 64,
+      "items": [
+        {
+          "key": "Volt",
+          "value": "220 / 380V"
+        },
+        {
+          "key": "Frequency",
+          "value": "50Hz"
+        },
+        {
+          "key": "Compressor",
+          "value": "3KW"
+        },
+        {
+          "key": "Fan Wattage",
+          "value": "400W"
+        }
+      ],
       "extras": [
-        "LCD touch screen",
-        "Hot and cold water output"
+        "250 L/day generated at 30℃ & 80%RH",
+        "7 stage filtration and sterilization",
+        "150 Liters of storage capacity",
+        " LCD display screen",
+        "Ambient pure water output"
       ]
     },
     "highlights": [
@@ -66,11 +104,11 @@
         "items": [
           {
             "key": "Working Temperature",
-            "value": "15-40 C"
+            "value": "15-38 ℃"
           },
           {
             "key": "Working Humidity",
-            "value": "45 - 65 %"
+            "value": "35 - 95%"
           }
         ]
       },
@@ -79,32 +117,57 @@
         "items": [
           {
             "key": "Container loading",
-            "value": "144pcs/20ft 384pcs/40hq"
+            "value": "6pcs/20ft 13pcs/40ft"
           },
           {
             "key": "Dimensions",
-            "value": "45 x 44 x 56 cm"
+            "value": "160x72x128 cm"
           },
           {
             "key": "Net Weight",
-            "value": "46Kg"
+            "value": "320 kg"
+          },
+          {
+            "key": "Gas",
+            "value": "R407c"
+          },
+          {
+            "key": "Noise level",
+            "value": "<79dB"
           }
         ]
       }
     ]
   },
   {
-    "name": "Model name",
-    "imgUrl": "/images/water-cooler.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "name": "Model No. AE-500",
+    "imgUrl": "/images/products/ae500.png",
+    "description": "Aryav has fully operational, self-contained and self-sufficient Mobile Air & Water systems. They are easily transported while producing up to thousands of gallons of fresh pure drinking water.",
     "features": {
-      "capacity": 100,
-      "storage": 200,
-      "power": 6,
-      "noise": 64,
+      "items": [
+        {
+          "key": "Volt",
+          "value": "220V"
+        },
+        {
+          "key": "Frequency",
+          "value": "60Hz"
+        },
+        {
+          "key": "Compressor",
+          "value": "4.5KW"
+        },
+        {
+          "key": "Fan Wattage",
+          "value": "400W"
+        }
+      ],
       "extras": [
-        "LCD touch screen",
-        "Hot and cold water output"
+        "500 L/day generated at 30℃ & 80%RH",
+        "13 stage filtration and sterilization",
+        "350 Liters of storage capacity",
+        "LCD display screen",
+        "Ambient pure water output"
       ]
     },
     "highlights": [
@@ -113,11 +176,11 @@
         "items": [
           {
             "key": "Working Temperature",
-            "value": "15-40 C"
+            "value": "15-38 ℃"
           },
           {
             "key": "Working Humidity",
-            "value": "45 - 65 %"
+            "value": "35 - 95%"
           }
         ]
       },
@@ -126,32 +189,57 @@
         "items": [
           {
             "key": "Container loading",
-            "value": "144pcs/20ft 384pcs/40hq"
+            "value": "4pcs/20ft 8pcs/40hq"
           },
           {
             "key": "Dimensions",
-            "value": "45 x 44 x 56 cm"
+            "value": "235x85x145 cm"
           },
           {
             "key": "Net Weight",
-            "value": "46Kg"
+            "value": "560 kg"
+          },
+          {
+            "key": "Gas",
+            "value": "R407c"
+          },
+          {
+            "key": "Noise level",
+            "value": "<79dB"
           }
         ]
       }
     ]
   },
   {
-    "name": "Model name",
-    "imgUrl": "/images/water-cooler.png",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.",
+    "name": "Model No. AE-1000",
+    "imgUrl": "/images/products/ae1000.png",
+    "description": "Aryav has fully operational, self-contained and self-sufficient Mobile Air & Water systems. They are easily transported while producing up to thousands of gallons of fresh pure drinking water.",
     "features": {
-      "capacity": 100,
-      "storage": 200,
-      "power": 6,
-      "noise": 64,
+      "items": [
+        {
+          "key": "Volt",
+          "value": "380V"
+        },
+        {
+          "key": "Frequency",
+          "value": "50Hz"
+        },
+        {
+          "key": "Compressor",
+          "value": "11KW"
+        },
+        {
+          "key": "Fan Wattage",
+          "value": "1KW"
+        }
+      ],
       "extras": [
-        "LCD touch screen",
-        "Hot and cold water output"
+        "1000 L/day generated at 30℃ & 80%RH",
+        "9 stage filtration and sterilization",
+        "700 Liters of storage capacity",
+        "LCD display screen",
+        "Ambient pure water output"
       ]
     },
     "highlights": [
@@ -160,11 +248,11 @@
         "items": [
           {
             "key": "Working Temperature",
-            "value": "15-40 C"
+            "value": "15-38 ℃"
           },
           {
             "key": "Working Humidity",
-            "value": "45 - 65 %"
+            "value": "35 - 95%"
           }
         ]
       },
@@ -173,15 +261,94 @@
         "items": [
           {
             "key": "Container loading",
-            "value": "144pcs/20ft 384pcs/40hq"
+            "value": "2pcs/20ft 4pcs/40hq"
           },
           {
             "key": "Dimensions",
-            "value": "45 x 44 x 56 cm"
+            "value": "280x180x162 cm"
           },
           {
             "key": "Net Weight",
-            "value": "46Kg"
+            "value": "2000 kg"
+          },
+          {
+            "key": "Gas",
+            "value": "R407c"
+          },
+          {
+            "key": "Noise level",
+            "value": "<79dB"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Model No. AE-3000",
+    "imgUrl": "/images/products/ae3000.png",
+    "description": "Aryav has fully operational, self-contained and self-sufficient Mobile Air & Water systems. They are easily transported while producing up to thousands of gallons of fresh pure drinking water.",
+    "features": {
+      "items": [
+        {
+          "key": "Volt",
+          "value": "380V"
+        },
+        {
+          "key": "Frequency",
+          "value": "50Hz"
+        },
+        {
+          "key": "Compressor",
+          "value": "25KW"
+        },
+        {
+          "key": "Fan Wattage",
+          "value": "3KW"
+        }
+      ],
+      "extras": [
+        "3000 L/day generated at 30℃ & 80%RH",
+        "2000 Liters of storage capacity",
+        "LCD display screen",
+        "Ambient pure water output"
+      ]
+    },
+    "highlights": [
+      {
+        "title": "Operating Conditions",
+        "items": [
+          {
+            "key": "Working Temperature",
+            "value": "15-38 ℃"
+          },
+          {
+            "key": "Working Humidity",
+            "value": "35 - 95%"
+          }
+        ]
+      },
+      {
+        "title": "Product Specification",
+        "items": [
+          {
+            "key": "Container loading",
+            "value": "1pcs/20ft 2pcs/40hq"
+          },
+          {
+            "key": "Dimensions",
+            "value": "400x220x220 cm"
+          },
+          {
+            "key": "Net Weight",
+            "value": "2500 kg"
+          },
+          {
+            "key": "Gas",
+            "value": "R407c"
+          },
+          {
+            "key": "Noise level",
+            "value": "<79dB"
           }
         ]
       }

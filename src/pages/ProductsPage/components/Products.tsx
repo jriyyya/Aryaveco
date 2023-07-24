@@ -33,35 +33,15 @@ export default function Products() {
                   Features
                 </div>
                 <div className="flex flex-col gap-y-2">
-                  <div className="flex items-center gap-x-2">
-                    <div className="h-[12px] w-[3px] bg-primary" />
-                    <div>Capacity : </div>
-                    <div className="font-semibold">
-                      {product.features.capacity} ltrs/day
+                  {product.features.items.map((item, i) => (
+                    <div className="flex items-center gap-x-2">
+                      <div className="h-[12px] w-[3px] bg-primary" />
+                      <div>{item.key}:</div>
+                      <div className="font-semibold">{item.value}</div>
                     </div>
-                  </div>
-                  <div className="flex items-center gap-x-2">
-                    <div className="h-[12px] w-[3px] bg-primary" />
-                    <div>Storage : </div>
-                    <div className="font-semibold">
-                      {product.features.storage} ltrs
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-x-2">
-                    <div className="h-[12px] w-[3px] bg-primary" />
-                    <div>Power : </div>
-                    <div className="font-semibold">
-                      {product.features.power} kW
-                    </div>
-                  </div>
-                  <div className="flex items-center gap-x-2">
-                    <div className="h-[12px] w-[3px] bg-primary" />
-                    <div>Noise Level : </div>
-                    <div className="font-semibold">
-                      &#60;{product.features.noise} dB
-                    </div>
-                  </div>
+                  ))}
                 </div>
+
                 <button
                   onClick={() => {
                     modal.show(<ProductModal product={product} />);

@@ -56,33 +56,14 @@ export default function ProductModal(props: ProductModalProps) {
                 Features
               </div>
               <div className="flex flex-col gap-y-2">
-                <div className="flex items-center gap-x-2">
-                  <div className="h-[12px] w-[3px] bg-primary" />
-                  <div>Capacity : </div>
-                  <div className="font-semibold">
-                    {props.product.features.capacity} ltrs/day
-                  </div>
-                </div>
-                <div className="flex items-center gap-x-2">
-                  <div className="h-[12px] w-[3px] bg-primary" />
-                  <div>Storage : </div>
-                  <div className="font-semibold">
-                    {props.product.features.storage} ltrs
-                  </div>
-                </div>
-                <div className="flex items-center gap-x-2">
-                  <div className="h-[12px] w-[3px] bg-primary" />
-                  <div>Power : </div>
-                  <div className="font-semibold">
-                    {props.product.features.power} kW
-                  </div>
-                </div>
-                <div className="flex items-center gap-x-2">
-                  <div className="h-[12px] w-[3px] bg-primary" />
-                  <div>Noise Level : </div>
-                  <div className="font-semibold">
-                    &#60;{props.product.features.noise} dB
-                  </div>
+                <div className="flex flex-col gap-y-2">
+                  {props.product.features.items.map((item, i) => (
+                    <div className="flex items-center gap-x-2">
+                      <div className="h-[12px] w-[3px] bg-primary" />
+                      <div>{item.key}:</div>
+                      <div className="font-semibold">{item.value}</div>
+                    </div>
+                  ))}
                 </div>
                 {props.product.features.extras.map((extra, i) => (
                   <div className="flex items-center gap-x-2" key={i}>
